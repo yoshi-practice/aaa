@@ -1,0 +1,64 @@
+@font-face {
+    font-family: 'honoka';
+    src: url('/res/font/honoka-min/font_1_honokamin.ttf');
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    /*background: radial-gradient(circle farthest-side,  white, gray, black);
+    background: -moz-radial-gradient(white, black);*/
+    background: -webkit-radial-gradient(white, #2d2d2d);
+    background: -ms-radial-gradient(white, #2d2d2d);
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-family: honoka;
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+
+}
+
+.word {
+    margin: 4vh 15vw;
+}
+
+
+h1 {
+    font-size: 7vh;
+    letter-spacing: 4vh;
+}
+
+p {
+    font-size: 3.5vh;
+    letter-spacing: 1vh
+}
+
+#title {
+    text-align: center;
+}
+
+#p1 {
+    margin: 0 10vw 0 0;
+
+}
+
+
+
+#p2 {
+    margin: 20vh 4vw 0 0;
+}
+
+#p3 {
+    margin: 10vh 9vw 0 0;
+}
+
+#p4 {
+    margin: 5vh 9vw 0 0;
+}
+
+#p5 {
+    margin: 34vh 7vw 0 0;
+}
